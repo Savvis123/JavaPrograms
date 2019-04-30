@@ -1,0 +1,68 @@
+package Naveen;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+
+import junit.framework.Assert;
+
+public class DownloadFile {
+	
+	File folder;
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void setUp()
+	{
+		folder=new File(UUID.randomUUID().toString());
+		folder.mkdir();
+		System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir")+"/driverfiles/chromedriver.exe");
+
+		//System.getProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/driverfiles/chromedriver.exe");
+		ChromeOptions options=new ChromeOptions();
+		Map<String,Object> prefs=new HashMap<String,Object>();
+		prefs.put("Profile.default_content_settings.popups", 0);
+		prefs.put("download.default_directory", folder.getAbsolutePath());
+		options.setExperimentalOption("prefs", prefs);
+		
+		DesiredCapabilities cap=DesiredCapabilities.chrome();
+		cap.setCapability(ChromeOptions.CAPABILITY, options);
+		driver =new ChromeDriver();
+	}
+	
+	@Test
+	public void downloadFile() throws InterruptedException
+	{
+		driver.get("https://the-internet.herokuapp.com/download");
+		driver.findElement(By.xpath("//a[text()='Test.txt']")).click();
+		Thread.sleep(3000);
+		
+		File listOffiles[]=folder.listFiles();
+		
+		System.out.println(listOffiles.length);
+		//Assert.assertEquals(listOffiles.length, is(not(0)));
+	}
+
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.quit();
+		for(File file:folder.listFiles())
+		{
+			file.delete();
+		}
+		folder.delete();
+	}
+}

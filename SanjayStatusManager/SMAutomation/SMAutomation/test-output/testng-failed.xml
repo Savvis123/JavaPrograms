@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.centurylink.statusmanager.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.centurylink.statusmanager.runner.RunCukes">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="teardown"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.centurylink.statusmanager.runner.RunCukes -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Broswer" value="chrome"/>
+  <test thread-count="5" name="SecondTest(failed)" parallel="tests">
+    <classes>
+      <class name="TestNGExamples.TestNGparameters">
+        <methods>
+          <include name="beforeTestExample"/>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="afterTestExample"/>
+        </methods>
+      </class> <!-- TestNGExamples.TestNGparameters -->
+    </classes>
+  </test> <!-- SecondTest(failed) -->
+  <test thread-count="5" name="FirstTest(failed)" parallel="tests">
+    <classes>
+      <class name="TestNGExamples.TestNGparameters">
+        <methods>
+          <include name="beforeTestExample"/>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="afterTestExample"/>
+        </methods>
+      </class> <!-- TestNGExamples.TestNGparameters -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

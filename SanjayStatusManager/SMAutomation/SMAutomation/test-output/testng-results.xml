@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="431096" started-at="2018-06-25T15:46:52Z" finished-at="2018-06-25T15:54:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="431096" started-at="2018-06-25T15:46:52Z" finished-at="2018-06-25T15:54:03Z">
+      <class name="com.centurylink.statusmanager.runner.RunCukes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="setup" is-config="true" duration-ms="2382" started-at="2018-06-25T21:16:50Z" finished-at="2018-06-25T21:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="setUpClass" is-config="true" duration-ms="256" started-at="2018-06-25T21:16:52Z" finished-at="2018-06-25T21:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="feature" duration-ms="430437" started-at="2018-06-25T21:16:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-25T21:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Status Manager Regression Suite]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="tearDownClass" is-config="true" duration-ms="238" started-at="2018-06-25T21:24:03Z" finished-at="2018-06-25T21:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.centurylink.statusmanager.runner.RunCukes@21213b92]" name="teardown" is-config="true" duration-ms="843" started-at="2018-06-25T21:24:03Z" finished-at="2018-06-25T21:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.centurylink.statusmanager.runner.RunCukes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

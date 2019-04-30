@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><SubmitPaymentRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:ns2="http://www.qwest.com/XMLSchema/BIM">
+    <EPWFHeaderInfo>
+        <ns2:RequestId>Parthr129089</ns2:RequestId>
+        <ns2:SendTimeStamp>2017-01-25T13:29:48.159-05:00</ns2:SendTimeStamp>
+        <ns2:MessageSrcSystem>MARLIE</ns2:MessageSrcSystem>
+    </EPWFHeaderInfo>
+    <Payment>
+        <MaskedPaymentAcctId>3142</MaskedPaymentAcctId>
+        <CardType>VISA</CardType>
+        <ConvenienceFeeAmt currency="USD">8.95</ConvenienceFeeAmt>
+        <TotalTaxAmt currency="USD">0.0</TotalTaxAmt>
+        <PaymentAmt currency="USD">15.66</PaymentAmt>
+        <PaymentProcessDateTime>2017-01-25T13:29:48.159-05:00</PaymentProcessDateTime>
+        <SrcSystemTranId>70640036110</SrcSystemTranId>
+        <TransactionTypeCode>Payment</TransactionTypeCode>
+        <PaymentMethodCode>CARD</PaymentMethodCode>
+        <PaymentAction>PostPayment</PaymentAction>
+        <InputChannelId>MAR_SCH</InputChannelId>
+        <PaymentTypeCode>P</PaymentTypeCode>
+        <ConsentMediumCode>Internet</ConsentMediumCode>
+        <UserId>SPAY</UserId>
+        <SrcApplicationId>MARLIE</SrcApplicationId>
+        <DestinationApplicationId>XCASH</DestinationApplicationId>
+        <CustomerType>CON</CustomerType>
+        <PaymentScheduleType>OneTime</PaymentScheduleType>
+        <OrderNumber/>
+        <BusinessName>OREINTAL ACCUPRESSUR</BusinessName>
+        <CustomerFirstName>OREINTAL</CustomerFirstName>
+        <CustomerLastName>ACCUPRESSUR</CustomerLastName>
+        <BillingApplicationId>CRIS</BillingApplicationId>
+        <BillingAcctId>2069380595236</BillingAcctId>
+        <BillingAcctRegion>IR</BillingAcctRegion>
+       <VendorPaymentId>7975588176780</VendorPaymentId>
+    </Payment>
+</SubmitPaymentRequest>

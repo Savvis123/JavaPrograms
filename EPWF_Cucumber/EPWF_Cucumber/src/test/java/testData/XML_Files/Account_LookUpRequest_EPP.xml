@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><AcctLookupRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:qb="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.qwest.com/XMLSchema AcctLookupRequest_v01_00.xsd">
+  <EPWFHeaderInfo>
+    <qb:RequestId>ALIR110420161123AM</qb:RequestId>
+    <qb:SendTimeStamp>2015-02-05T09:30:47Z</qb:SendTimeStamp>
+    <qb:MessageSrcSystem>MYACCOUNT</qb:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <InputChannelId>MYA_QBP</InputChannelId>
+  <SrcApplicationId>MYACCOUNT</SrcApplicationId>
+  <BillingAccntId>7196350020200</BillingAccntId>
+  <SrcSystemTranId>MYACCOUNT</SrcSystemTranId>
+  <BillingApplicationId>CRIS</BillingApplicationId>
+</AcctLookupRequest>

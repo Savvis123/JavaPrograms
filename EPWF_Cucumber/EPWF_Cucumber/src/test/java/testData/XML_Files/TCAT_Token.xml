@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><ns2:SubmitPaymentRequest xmlns="http://www.qwest.com/XMLSchema/BIM" xmlns:ns2="http://www.qwest.com/XMLSchema">
+    <ns2:EPWFHeaderInfo>
+        <RequestId>WN578291</RequestId>
+        <SendTimeStamp>2016-08-26T08:55:10.773-05:00</SendTimeStamp>
+        <MessageSrcSystem>THUNDERCAT</MessageSrcSystem>
+    </ns2:EPWFHeaderInfo>
+    <ns2:Payment>
+        <ns2:PayerFirstName>Bill</ns2:PayerFirstName>
+        <ns2:PayerLastName>Payer</ns2:PayerLastName>
+        <!-- HCDE Token ID# -->
+        <ns2:WalletRef>9291704092144868</ns2:WalletRef> 
+        <ns2:ConvenienceFeeAmt currency="USD">0</ns2:ConvenienceFeeAmt>
+        <ns2:TotalTaxAmt currency="USD">0</ns2:TotalTaxAmt>
+        <ns2:PaymentAmt currency="USD">50</ns2:PaymentAmt>
+        <ns2:TransactionTypeCode>Payment</ns2:TransactionTypeCode>
+        <ns2:PaymentMethodCode>CARD</ns2:PaymentMethodCode>
+        <ns2:PaymentAction>AuthorizePayment</ns2:PaymentAction>
+        <ns2:InputChannelId>TCAT_SHP</ns2:InputChannelId>
+        <ns2:PaymentTypeCode>AD</ns2:PaymentTypeCode>
+        <ns2:ConsentMediumCode>Internet</ns2:ConsentMediumCode>
+        <ns2:UserId>Prashant</ns2:UserId>
+        <ns2:SrcApplicationId>THUNDERCAT</ns2:SrcApplicationId>
+        <ns2:DestinationApplicationId>XCASH</ns2:DestinationApplicationId>
+       <ns2:CustomerType>CON</ns2:CustomerType>
+        <ns2:PaymentScheduleType>OneTime</ns2:PaymentScheduleType>
+        <!-- Web Order # -->
+        <ns2:OrderNumber>N65895878</ns2:OrderNumber>
+       <ns2:CustomerFirstName>EPWF</ns2:CustomerFirstName>
+        <ns2:CustomerLastName>TEST</ns2:CustomerLastName>
+        <ns2:EPWFAddressT>
+            <ns2:StreetAddress1>4425 RESTHAVEN CIR</ns2:StreetAddress1>
+            <ns2:City>Las Vegas</ns2:City>
+            <StateProvince>NV</StateProvince>
+            <ns2:PostalCode>89032</ns2:PostalCode>
+            <ns2:AddressType>BLG</ns2:AddressType>
+        </ns2:EPWFAddressT>
+        <ns2:BillingApplicationId>CRIS</ns2:BillingApplicationId>
+        <!-- Acct ID - BAN -->
+        <ns2:BillingAcctId>2421000000007</ns2:BillingAcctId> 
+        <!-- Entity Allocation only req'd for CRIS -->
+        <!-- <ns2:EntityAllocation> -->
+            <!-- <ns2:EntityCodeId>014</ns2:EntityCodeId> -->
+            <!-- <ns2:EntityAmt currency="USD">50</ns2:EntityAmt> -->
+        <!-- </ns2:EntityAllocation> -->
+        <ns2:BillingAcctRegion>IR</ns2:BillingAcctRegion>
+        <!-- Use HCDE Tokent ID# -->
+        <ns2:PaymentInstrumentReferenceId>9291704092144868</ns2:PaymentInstrumentReferenceId> 
+        <!-- Always set WalletType = TMP for Token Payments -->
+        <ns2:WalletType>TMP</ns2:WalletType>
+    </ns2:Payment>
+</ns2:SubmitPaymentRequest>

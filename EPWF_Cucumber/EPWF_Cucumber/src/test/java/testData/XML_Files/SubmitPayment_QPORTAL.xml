@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:MultiPaymentSubmitRequest xmlns:xs="http://www.qwest.com/XMLSchema">
+<xs:EPWFHeaderInfo>   
+                <bim:RequestId xmlns:bim="http://www.qwest.com/XMLSchema/BIM">022220160452</bim:RequestId>
+    <bim:SendTimeStamp xmlns:bim="http://www.qwest.com/XMLSchema/BIM">2014-05-13T01:08:18.537-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem xmlns:bim="http://www.qwest.com/XMLSchema/BIM">QPORTAL</bim:MessageSrcSystem>
+</xs:EPWFHeaderInfo>
+<xs:MultiPaymentSubmitRequestAction>InitiateMultiPaymentSession</xs:MultiPaymentSubmitRequestAction>
+  <xs:SrcApplicationId>QPORTAL</xs:SrcApplicationId>
+  <xs:InputChannelId>CC_BMG</xs:InputChannelId>
+  <xs:ConsentMediumCode>Internet</xs:ConsentMediumCode>
+ <xs:UserId>ab17229</xs:UserId>
+  <xs:ACHAllowedFlag>true</xs:ACHAllowedFlag>
+  <xs:CardAllowedFlag>true</xs:CardAllowedFlag>
+  <xs:WalletRef>011920161137PRF</xs:WalletRef>
+  <bim:Email xmlns:bim="http://www.qwest.com/XMLSchema/BIM">ab17229@centurylink.com</bim:Email>
+  <xs:TotalPaymentAmt>670.0</xs:TotalPaymentAmt>
+  <xs:MultiPayment>
+                                <xs:PaymentProcessDateTime>2018-06-25</xs:PaymentProcessDateTime>
+                                <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+                                <xs:CustomerType>BGS</xs:CustomerType>
+                                <xs:DestinationApplicationId>XCASH</xs:DestinationApplicationId>
+                                <xs:BillingAcctRegion>IR</xs:BillingAcctRegion>
+                                <xs:BillingApplicationId>CRIS</xs:BillingApplicationId>
+                                <xs:BillingAcctId>4065496600166</xs:BillingAcctId>
+                                <xs:PaymentAmt currency="USD">25.0</xs:PaymentAmt>
+                                <xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+                                <xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+                                <xs:BusinessName>Scooby Dooby Doo</xs:BusinessName>
+                                <!--<xs:CustomerFirstName>Srinivas</xs:CustomerFirstName>
+                                <xs:CustomerLastName>Vajapeyam</xs:CustomerLastName>-->
+                                <xs:EPWFAddressT>
+                                                <xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+                                                <xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+                                                <xs:City>Denver</xs:City>
+                                                <bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">MN</bim:StateProvince>
+                                                <xs:PostalCode>25601</xs:PostalCode>
+                                                <xs:AddressType>BLG</xs:AddressType>
+                                </xs:EPWFAddressT>
+                </xs:MultiPayment>
+                <xs:MultiPayment>
+                                <xs:PaymentProcessDateTime>2018-06-25</xs:PaymentProcessDateTime>
+                               <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+                                <xs:CustomerType>BGS</xs:CustomerType>
+                                <xs:DestinationApplicationId>ARMS</xs:DestinationApplicationId>
+                                <xs:BillingAcctRegion>OOR</xs:BillingAcctRegion>
+                                <xs:BillingApplicationId>LATIS</xs:BillingApplicationId>
+                                <xs:BillingAcctId>62081196</xs:BillingAcctId>
+                                <xs:PaymentAmt currency="USD">26.0</xs:PaymentAmt>
+                                <xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+                                <xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+                                <xs:BusinessName>Scooby Dooby Doo</xs:BusinessName>
+                                <!--<xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+                                <xs:CustomerLastName>Test2</xs:CustomerLastName>-->
+                                <xs:EPWFAddressT>
+                                                <xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+                                                <xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+                                                <xs:City>Denver</xs:City>
+                                                <bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+                                                <xs:PostalCode>25602</xs:PostalCode>
+                                                <xs:AddressType>BLG</xs:AddressType>
+                                </xs:EPWFAddressT>
+                </xs:MultiPayment>
+                <xs:MultiPayment>
+                                <xs:PaymentProcessDateTime>2018-06-25</xs:PaymentProcessDateTime>
+                                <xs:PaymentTypeCode>P</xs:PaymentTypeCode>
+                                <xs:CustomerType>BGS</xs:CustomerType>
+                                <xs:DestinationApplicationId>ARMS</xs:DestinationApplicationId>
+                                <xs:BillingAcctRegion>OOR</xs:BillingAcctRegion>
+                                <xs:BillingApplicationId>LATIS</xs:BillingApplicationId>
+                                <xs:BillingAcctId>62081196</xs:BillingAcctId>
+                                <xs:PaymentAmt currency="USD">27.0</xs:PaymentAmt>
+                                <xs:ConvenienceFeeAmt currency="USD">0</xs:ConvenienceFeeAmt>
+                                <xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+                                <xs:BusinessName>Scooby Dooby Doo</xs:BusinessName>
+                                <!--<xs:CustomerFirstName>Sheetal</xs:CustomerFirstName>
+                                <xs:CustomerLastName>Test2</xs:CustomerLastName>-->
+                                <xs:EPWFAddressT>
+                                                <xs:StreetAddress1>123 Main Street</xs:StreetAddress1>
+                                                <xs:StreetAddress2>Apt 456</xs:StreetAddress2>
+                                                <xs:City>Denver</xs:City>
+                                                <bim:StateProvince xmlns:bim="http://www.qwest.com/XMLSchema/BIM">CO</bim:StateProvince>
+                                                <xs:PostalCode>25602</xs:PostalCode>
+                                                <xs:AddressType>BLG</xs:AddressType>
+                                </xs:EPWFAddressT>
+                </xs:MultiPayment>
+                                <xs:SessionDetail>
+                                <xs:StyleSheetURL>http://stylesheet.url.com</xs:StyleSheetURL>
+                                <xs:SuccessNotificationURL>https://www.google.com</xs:SuccessNotificationURL>
+                                <xs:FailureNotificationURL>http://www.bing.com</xs:FailureNotificationURL>
+                                <xs:CancelNotificationURL>http://www.tcs.com</xs:CancelNotificationURL>
+                </xs:SessionDetail>
+</xs:MultiPaymentSubmitRequest>

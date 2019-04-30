@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><AutoPayMangementRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <EPWFHeaderInfo>
+    <bim:RequestId>7426045428271</bim:RequestId>
+    <bim:SendTimeStamp>2016-06-13T12:29:42.675-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>CONPORT</bim:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <AutoPayRequestType>AutoPayManagement</AutoPayRequestType>
+  <AccountDetails>
+    <BillingAcctId>PPB11007299</BillingAcctId>
+    <BillingApplicationId>PPP</BillingApplicationId>
+    <CustomerType>CON</CustomerType>
+  </AccountDetails>
+  <SrcApplicationId>CONPORT</SrcApplicationId>
+  <InputChannelId>CP_CXP</InputChannelId>
+  <UserId>eckouser</UserId>
+  <SrcSystemTranId>844821768264897045</SrcSystemTranId>
+  <EmailId>nishantvilas.madpuwar@centurylink.com</EmailId>
+  <SessionDetail>
+    <StyleSheetURL>https://www.google.com/</StyleSheetURL>
+    <SuccessNotificationURL>https://www.google.com/</SuccessNotificationURL>
+    <FailureNotificationURL>http://www.bing.com/</FailureNotificationURL>
+    <CancelNotificationURL>https://conport-test1.centurylink.com/InstaLink/payment/autopayNotification/cancel</CancelNotificationURL>
+  </SessionDetail>
+  <AutopayMethodCode>ALL</AutopayMethodCode>
+</AutoPayMangementRequest>

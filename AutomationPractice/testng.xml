@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+ <listeners>
+        <!-- extent report and retry interface for executing failed test cases with required count -->
+		<!-- <listener class-name="EmailReport.ExtentReporterNG" /> -->
+		<listener class-name="RetryLogic.MyTransformer" />
+	</listeners>
+  <test name="Test">
+      
+      <groups>
+          <run>
+              <include name="strong_ties" />	
+          </run>
+      </groups>
+    <classes>
+       <!--<class name="RetryLogic.Mytests" />--> 
+        
+        <class name="TestNGExamples.Test01" />
+        <mehtods>
+            <!-- here we can execute perticular test from class file and ignore any test from class file using include and exclude inside class -->
+            <include name="tc01LaunchURL"></include>
+            <execlude name="testmethodname"></execlude>
+        </mehtods>
+       <!--<class name="BrowsersLaunching.Base"/>-->
+       <!--<class name="AutoITExamples.HandlingAuthenticationWindowUsingAutoIT"/>-->
+       <!--<class name="AutoITExamples.UploadFileUsingAutoIT"/>-->
+       <!--<class name="BrowsersLaunching.ScrollUpAndDownExamples"/>-->
+       <!--<class name="BrowsersLaunching.ScrollIntoView"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

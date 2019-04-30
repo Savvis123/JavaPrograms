@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+    <parameter name="Broswer" value="chrome"/>
+    <!--<groups>
+        <run>
+            <include name="regression"/>
+            <exclude name="sanity"/>
+        </run>
+    </groups>-->
+  <test name="FirstTest">
+ <classes>
+      <class name="TestNGExamples.TestNGExceptionExample"/>
+      <class name="TestNGExamples.TestNGparameters"></class>
+    </classes>
+  </test> 
+    <test name="SecondTest">
+    <classes>
+      <class name="TestNGExamples.TestNGparameters"></class>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->

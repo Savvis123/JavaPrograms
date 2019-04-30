@@ -1,0 +1,28 @@
+2018-04-02 15:59:44 IST - App Version in HomePage :
+2018-04-02 15:59:46 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-04-02 16:04:18 IST - App Version in HomePage :App Version 3.7.0
+2018-04-02 16:04:18 IST - Input CorrelationID ==== sdwf1498d7608360f9
+2018-04-02 16:04:21 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-04-02 18:45:41 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:45:41 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 18:48:18 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:48:19 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 18:50:05 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:50:06 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 18:53:23 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:53:23 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 18:55:04 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:55:05 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 18:57:43 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 18:57:44 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 19:43:43 IST - Total workgroup's associated = 1
+2018-04-02 19:43:46 IST - DELETE WORKGROUP action is tracked in the Log details table
+2018-04-02 19:45:15 IST - Total workgroup's associated = 1
+2018-04-02 19:46:41 IST - Total workgroup's associated = 1
+2018-04-02 19:50:50 IST - Total workgroup's associated = 2
+2018-04-02 19:51:24 IST - DELETE WORKGROUP action is tracked in the Log details table
+2018-04-02 20:00:41 IST - Clicked on Assign workgroup button displayed in the Assign workgroup window.
+2018-04-02 20:00:42 IST - Toaster Message is after successfully assigning workgroup to request. ====>Workgroups assigned successfully.
+2018-04-02 20:00:48 IST - ASSIGN WORKGROUP action is tracked in the Log details table
+2018-04-02 20:01:19 IST - Total workgroup's associated = 2
+2018-04-02 20:01:56 IST - DELETE WORKGROUP action is tracked in the Log details table

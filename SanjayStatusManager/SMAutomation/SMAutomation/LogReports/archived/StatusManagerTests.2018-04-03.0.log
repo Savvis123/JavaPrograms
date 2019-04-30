@@ -1,0 +1,25 @@
+2018-04-03 13:33:44 IST - User assigned to request
+2018-04-03 13:33:50 IST - ASSIGN USER action is tracked in the Log details table
+2018-04-03 15:07:55 IST - User assigned to request
+2018-04-03 15:08:01 IST - ASSIGN USER action is tracked in the Log details table
+2018-04-03 15:09:29 IST - User assigned to request
+2018-04-03 15:09:35 IST - ASSIGN USER action is tracked in the Log details table
+2018-04-03 17:28:32 IST - App Version in HomePage :App Version 3.7.0
+2018-04-03 17:28:33 IST - Input CorrelationID ==== sdwf1498d7608360f9
+2018-04-03 17:28:35 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-04-03 17:33:09 IST - App Version in HomePage :App Version 3.7.0
+2018-04-03 17:33:09 IST - Input CorrelationID ==== sdwf1498d7608360f9
+2018-04-03 17:33:12 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-04-03 17:38:00 IST - ####################################################################################################################################
+2018-04-03 17:38:00 IST - #                                                                                                                                  #
+2018-04-03 17:38:00 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-04-03 17:38:00 IST - #                                                                                                                                  #
+2018-04-03 17:38:00 IST - ####################################################################################################################################
+2018-04-03 17:38:24 IST - App Version in HomePage :App Version 3.7.0
+2018-04-03 17:38:25 IST - Input CorrelationID ==== sdwf1498d7608360f9
+2018-04-03 17:38:27 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-04-03 17:38:42 IST - ####################################################################################################################################
+2018-04-03 17:38:42 IST - #                                                                                                                                  #
+2018-04-03 17:38:42 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-04-03 17:38:42 IST - #                                                                                                                                  #
+2018-04-03 17:38:42 IST - ####################################################################################################################################

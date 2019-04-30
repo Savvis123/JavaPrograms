@@ -1,0 +1,17 @@
+Abstract class                                                         interface
+Constructor --Yes                                                      No
+instance initializer block ---yes                                      No
+Static,final,non static and non final                                  No
+                                                                       In interface all members are public static final by default
+                                                                       and intialize them mandatory at declaration time
+main method ---yes                                                     No
+Access data modifiers we can give
+like private ,public,protected                                         By default public static final
+No need to add access modifiers for 
+non concrete methods                                                   need to add default or static and also from java 9 onwards 
+                                                                        private and static also introduced
+final and synchronized methods also                                     No
+
+
+
+

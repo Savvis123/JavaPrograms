@@ -1,0 +1,97 @@
+2018-05-17 15:37:59 IST - #################################################################################################################################
+2018-05-17 15:37:59 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-17 15:37:59 IST - #################################################################################################################################
+2018-05-17 15:38:03 IST - ####################################################################################################################################
+2018-05-17 15:38:03 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-17 15:38:03 IST - ####################################################################################################################################
+2018-05-17 15:38:30 IST - App Version in HomePage :App Version 3.7.0
+2018-05-17 15:38:31 IST - Selected a74bcf1f37e1456abc9ce9bab6407326 in the Correlation ID textbox
+2018-05-17 15:38:31 IST - Entered Correlation Id
+2018-05-17 15:38:34 IST - Clicked on view button
+2018-05-17 15:38:35 IST - Number of MicroServices tagged to CorrelationID = 1
+2018-05-17 15:38:35 IST - List of all MicroService associated = [Portster]
+2018-05-17 15:38:35 IST - Portster  Microservice found...
+2018-05-17 15:39:11 IST - ####################################################################################################################################
+2018-05-17 15:39:11 IST - #                                                                                                                                  #
+2018-05-17 15:39:11 IST - #                                                          SCENARIO  FAILED                                                        #
+2018-05-17 15:39:11 IST - #                                                                                                                                  #
+2018-05-17 15:39:11 IST - ####################################################################################################################################
+2018-05-17 15:39:12 IST - #################################################################################################################################
+2018-05-17 15:39:12 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-17 15:39:12 IST - #################################################################################################################################
+2018-05-17 15:39:54 IST - #################################################################################################################################
+2018-05-17 15:39:54 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-17 15:39:54 IST - #################################################################################################################################
+2018-05-17 15:39:57 IST - ####################################################################################################################################
+2018-05-17 15:39:57 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-17 15:39:57 IST - ####################################################################################################################################
+2018-05-17 15:40:23 IST - App Version in HomePage :App Version 3.7.0
+2018-05-17 15:40:23 IST - Selected a74bcf1f37e1456abc9ce9bab6407326 in the Correlation ID textbox
+2018-05-17 15:40:23 IST - Entered Correlation Id
+2018-05-17 15:40:27 IST - Clicked on view button
+2018-05-17 15:40:28 IST - Number of MicroServices tagged to CorrelationID = 1
+2018-05-17 15:40:28 IST - List of all MicroService associated = [Portster]
+2018-05-17 15:40:28 IST - Portster  Microservice found...
+2018-05-17 15:40:31 IST - Existing desired due date value = 
+2018-05-17 15:40:32 IST - New desired due date value = 2018-05-23
+2018-05-17 15:40:37 IST - toastermessage = Request accepted and processing is in progress.
+2018-05-17 15:40:47 IST - Service name = Portster , Service Action = CREATE , Service status = In Progress ,   Status details = In Progress - Service Restarted  ,  Status code = 202  ,   Completion date = 
+2018-05-17 15:40:47 IST - Portsterretried successfully from Status Manager.
+2018-05-17 15:40:47 IST - Status details contains message - In Progress - Service Restarted
+2018-05-17 15:40:49 IST - RETRY action is tracked in the Log details table
+2018-05-17 15:40:52 IST - RETRY action on MS received CODE:202
+2018-05-17 15:40:52 IST - True FC response = Correlation ID:a74bcf1f37e1456abc9ce9bab6407326
+Transaction ID:24666
+Micro Service NAME:Portster
+ACTION_TYPE:RETRY
+STATUS:Success
+CODE:202
+CODE DEF:Request accepted and processing is in progress.
+RESPONSE RECEIVED:{"cs":"CJEUX","mi":"C","aft":"N","elt":"B","lrn":"5551234444","pon":"4049355199180515","tos":"2---","zip":"12345","city":"SHELYBVILLE","hold":true,"name":"TEST2 CSR,ATT","sano":"2222","sasn":"TEST","sath":"TEST2","event":"supplement","state":"DE","frozen":false,"portTn":"4049355199","tnType":"Wireline","orderId":"4049355199180515","orderTn":"4049355199","portTns":["4049355199"],"version":"01","warning":"","authName":"TEST2 CSR,ATT","custCode":"865","portable":"YES","validated":true,"losingSPID":"9533","onSPAcctNo":"1234","rateCenter":"LITTLEROCK","simplePort":"YES","portableTns":[["4049355199"]],"accountNumber":"1234","interfaceType":"Bonded","losingCarrier":"SouthWestern Bell/1","typeOfService":"Business(1)","desiredDueDate":"2018-05-22","internalPortin":false,"nonPortableTns":[],"serviceAddress":"2222 DUPONT TEST2 TEST2  SELBYVILLE DE 12345","currentTimestamp":"2018-05-15T21:47:58","possibleDesiredDueDate":"2018-05-21","supplement":2}
+VALIDATION_BY:Response Rules
+VALIDATION_STATUS:RuleNotFound
+VALIDATION_RESULTS:
+==> ruleStatus: RuleNotFound ; validationReason:  No Data found in db table: SM_MANUAL_ACTION_KEYSET for this offeringType:DHP , MicroServiceName: Portster ,ButtonType:RETRY , msActionType::CREATE ; 
+CREATED_BY_ID:ab42590
+COMMENT:Testing Edit & Retry on Portster by
+2018-05-17 15:40:52 IST - Closed Search results tab
+2018-05-17 15:40:52 IST - Closed Request details tab
+2018-05-17 15:40:57 IST - Starting execution of after Suite method
+2018-05-17 15:41:03 IST - You have successfully logged out.
+2018-05-17 15:41:03 IST - ####################################################################################################################################
+2018-05-17 15:41:03 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-17 15:41:03 IST - ####################################################################################################################################
+2018-05-17 15:41:04 IST - #################################################################################################################################
+2018-05-17 15:41:04 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-17 15:41:04 IST - #################################################################################################################################
+2018-05-17 16:18:11 IST - #################################################################################################################################
+2018-05-17 16:18:11 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-17 16:18:11 IST - #################################################################################################################################
+2018-05-17 16:18:14 IST - ####################################################################################################################################
+2018-05-17 16:18:14 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-17 16:18:14 IST - ####################################################################################################################################
+2018-05-17 16:18:38 IST - App Version in HomePage :App Version 3.7.0
+2018-05-17 16:18:39 IST - Selected a74bcf1f37e1456abc9ce9bab6407326 in the Correlation ID textbox
+2018-05-17 16:18:39 IST - Entered Correlation Id
+2018-05-17 16:18:42 IST - Clicked on view button
+2018-05-17 16:18:43 IST - Number of MicroServices tagged to CorrelationID = 1
+2018-05-17 16:18:44 IST - List of all MicroService associated = [Portster]
+2018-05-17 16:18:44 IST - Portster  Microservice found...
+2018-05-17 16:18:47 IST - Existing desired due date value = 
+2018-05-17 16:18:47 IST - New desired due date value = 2018-05-23
+2018-05-17 16:18:52 IST - toastermessage = 4xx - Client errors :::: Can not process patch for port in with state 'LSR_QUEUED', suggest that you try again in 24 hours.
+2018-05-17 16:19:02 IST - Service name = Portster , Service Action = CREATE , Service status = In Progress ,   Status details = In Progress - Service Restarted  ,  Status code = 202  ,   Completion date = 
+2018-05-17 16:19:02 IST - Portsterretried successfully from Status Manager.
+2018-05-17 16:19:02 IST - Status details of Portster is updated to In Progress - Service Restarted
+2018-05-17 16:19:02 IST - Status details contains message - In Progress - Service Restarted
+2018-05-17 16:19:04 IST - RETRY action is tracked in the Log details table
+2018-05-17 16:19:07 IST - Closed Search results tab
+2018-05-17 16:19:07 IST - Closed Request details tab
+2018-05-17 16:19:12 IST - Starting execution of after Suite method
+2018-05-17 16:19:18 IST - You have successfully logged out.
+2018-05-17 16:19:18 IST - ####################################################################################################################################
+2018-05-17 16:19:18 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-17 16:19:18 IST - ####################################################################################################################################
+2018-05-17 16:19:19 IST - #################################################################################################################################
+2018-05-17 16:19:19 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-17 16:19:19 IST - #################################################################################################################################

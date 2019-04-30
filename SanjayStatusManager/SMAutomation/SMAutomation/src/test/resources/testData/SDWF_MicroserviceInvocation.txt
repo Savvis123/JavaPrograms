@@ -1,0 +1,71 @@
+{
+  "commonInfo": {
+    "correlationID": "autoscript-sdwfjl2baw15",
+    "publicUserID": "3032512015",
+    "customerName": "John K. Smith",
+     "postalState": "AZ",
+    "territoryCode": "T600",
+    "offering": "DHP",
+    "workgroup":"SM-DOCS",
+    "notBeforeDate": "2018-6-16",
+    "customerCommitmentDate":"2018-7-16T17:04:09.261Z",
+    "completionDate": "2018-7-16",
+    "requestStatus":"In Progress",
+    "requestStatusCode": "202",
+    "requestStatusMessage": "Customer request accepted",
+    "comment": "Customer request accepted",
+    "requestActionType":"CREATE"
+  },
+  "originatorInfo": {
+    "originatorName": "John A. Smith",
+    "statusBackURLs": "http://www.google.com",
+    "comment": "Initiated"
+  },
+  "customerDetailsMap": [
+    {
+      "name": "City",
+      "value": "Denver"
+    },         
+    {
+      "name": "country",
+      "value": "USA"
+    }
+  ],
+  "microServiceDetailsList": [
+    {
+      "microServiceName": "E911",
+      "microServiceStatus":"In Progress",
+      "microServiceStatusCode": "202", 
+      "microServiceStatusMessage": "E911 invoked",
+      "dueDate":"2018-4-16",
+      
+      "completeDate":"2018-7-16",
+      "notBeforeDate":"2018-6-16",
+      "customerCommitmentDate":"2018-7-16",
+      "comment": "e911 invoked..."
+    },
+     {
+      "microServiceName": "PortSter",
+      "microServiceStatus":"In Progress",
+      "microServiceStatusCode": "202", 
+      "microServiceStatusMessage": "LPN invoked",
+      "dueDate":"2016-4-16",
+      "completeDate":"2018-7-16",
+      "notBeforeDate":"2018-6-16",
+      "customerCommitmentDate":"2018-7-16",
+      "comment": "Portster is invoked"
+    }, 
+     {
+      "microServiceName": "CallerID",
+      "microServiceStatus":"In Progress",
+      "microServiceStatusCode": "202", 
+      "microServiceStatusMessage": "CallerID invoked",
+      "dueDate":"2018-4-16",
+      "completeDate":"2018-7-16",
+      "notBeforeDate":"2018-6-16",
+      "customerCommitmentDate":"2018-7-16",
+      "comment": "CallerID is invoked"
+    } 
+   ]
+}
+

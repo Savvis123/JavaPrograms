@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:RefundPaymentRequest xmlns:bim="http://www.qwest.com/XMLSchema/BIM" xmlns:xs="http://www.qwest.com/XMLSchema">
+  <xs:EPWFHeaderInfo>
+    <bim:RequestId>RP061020150459PM</bim:RequestId>
+    <bim:SendTimeStamp>2015-07-27T17:20:14.498-06:00</bim:SendTimeStamp>
+  <bim:MessageSrcSystem>THUNDERCAT</bim:MessageSrcSystem>
+  </xs:EPWFHeaderInfo>
+  <xs:OriginalPaymentId/>
+  <xs:RefundPaymentAmt currency="USD"/> 
+  <xs:ConvenienceFeeAmt currency="USD"/>
+  <xs:TotalTaxAmt currency="USD">0.00</xs:TotalTaxAmt>
+  <xs:RefundRequestReasonCd>More Amount Paid</xs:RefundRequestReasonCd>
+  <xs:UserId>ab99594</xs:UserId>
+</xs:RefundPaymentRequest>

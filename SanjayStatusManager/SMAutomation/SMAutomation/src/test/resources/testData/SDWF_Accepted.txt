@@ -1,0 +1,39 @@
+{
+  "commonInfo": {
+    "correlationID": "56612151safs1a1",
+    "publicUserID": "5203652206",
+    "customerName": "JASON JORDAN",
+    "postalState": "AZ",
+    "territoryCode": "T600",
+    "offering": "DHP",
+    "workgroup":"SM-DOCS",
+    "notBeforeDate": "2016-12-16",
+    "customerCommitmentDate":"2016-12-16T17:04:09.261Z",
+    "completionDate": "2016-12-16T17:04:09.261Z",
+    "requestStatus":"Accepted",
+    "requestStatusCode": "202",
+    "requestStatusMessage": "Customer request accepted",
+    "comment": "Customer request accepted",
+    "requestActionType":"RMA",
+    "isParentRequest":"true"
+  },	
+  "originatorInfo": {
+    "originatorName": "John A. Smith",
+    "statusBackURLs": "http://www.google.com",
+    "comment": "Initiated"
+  },
+  "customerDetailsMap": [
+    {
+      "name": "House Number",
+      "value": "1152"
+    },
+     {
+      "name": "City",
+      "value": "Denver"
+    },             
+    {
+      "name": "country",
+      "value": "USA"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><SubmitPaymentRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">  
+<EPWFHeaderInfo>    
+<bim:RequestId>1819731359200</bim:RequestId>    
+<bim:SendTimeStamp>2016-08-09T22:55:51.483Z</bim:SendTimeStamp>    
+<bim:MessageSrcSystem>THUNDERCAT</bim:MessageSrcSystem>  
+</EPWFHeaderInfo>  
+<Payment>    
+<bim:Email>epwftest@centurylink.com</bim:Email>    
+<ConvenienceFeeAmt currency="USD">0.00</ConvenienceFeeAmt>    
+<TotalTaxAmt currency="USD">0.00</TotalTaxAmt>    
+<PaymentAmt currency="USD">30.00</PaymentAmt>    
+<TransactionTypeCode>Payment</TransactionTypeCode>    
+<PaymentMethodCode>CARD</PaymentMethodCode>    
+<PaymentAction>InitiateSession</PaymentAction>    
+<InputChannelId>TCAT_SHI</InputChannelId>    
+<PaymentTypeCode>P</PaymentTypeCode>    
+<ConsentMediumCode>Internet</ConsentMediumCode>    
+<UserId>userid</UserId>    
+<SrcApplicationId>THUNDERCAT</SrcApplicationId>    
+<DestinationApplicationId>ENJ</DestinationApplicationId>    
+<CustomerType>CON</CustomerType>    
+<PaymentScheduleType>OneTime</PaymentScheduleType>    
+<OrderNumber>N493331903</OrderNumber>    
+<CustomerFirstName>Epwf</CustomerFirstName>    
+<CustomerLastName>Dev</CustomerLastName>    
+<EPWFAddressT>      
+<StreetAddress1>Epwf</StreetAddress1>      
+<City>DENVER</City>      
+<bim:StateProvince>CO</bim:StateProvince>      
+<PostalCode>80249</PostalCode>      
+<AddressType>BLG</AddressType>    
+</EPWFAddressT>    
+<BillingApplicationId>ENS</BillingApplicationId>    
+<BillingAcctId>427149228</BillingAcctId>    
+<EntityAllocation>      
+<EntityCodeId>MBU</EntityCodeId>      
+<EntityAmt currency="USD">30.00</EntityAmt>    
+</EntityAllocation>    
+<BillingAcctRegion>IR</BillingAcctRegion>    
+<ACHAllowedFlag>false</ACHAllowedFlag>    
+<CardAllowedFlag>true</CardAllowedFlag>  
+</Payment>  
+<SessionDetail>    
+<StyleSheetURL>https://shop.centurylink.com/qcms/qCmsRepository/Checkout/css/checkout.css</StyleSheetURL>    
+<SuccessNotificationURL>https://www.google.com/#q=success</SuccessNotificationURL>    
+<FailureNotificationURL>https://www.bing.com/#q=failure</FailureNotificationURL>    
+<CancelNotificationURL>https://shop.centurylink.com:443/MasterWebPortal/qCmsRepository/Checkout/revieworder/tempCancel.vm</CancelNotificationURL>  
+</SessionDetail>
+</SubmitPaymentRequest>

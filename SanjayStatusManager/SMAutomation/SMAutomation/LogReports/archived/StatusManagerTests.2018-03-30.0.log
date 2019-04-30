@@ -1,0 +1,70 @@
+2018-03-30 15:38:33 IST - CorrelationID in response = sdwf1498d7608360f9  CorrelationID matched successfully !!
+2018-03-30 19:11:59 IST - Fetching Data from Data File
+2018-03-30 20:18:13 IST - Fetching Data from Data File
+2018-03-30 20:19:57 IST - Fetching Data from Data File
+2018-03-30 20:21:32 IST - Fetching Data from Data File
+2018-03-30 20:21:36 IST - Micro Service Update response{
+  "commonResponseInfo": {
+    "statusCode": "200",
+    "correlationID": "5661215154548",
+    "status": "SUCCESS",
+    "publicUserID": "2082252115",
+    "statusMessage": "Updating the CommonInfo of Request Details  are ignored."
+  },
+  "errorMessages": "Status Submit request Updated partially  success with correlationId....5661215154548 with Errors::::Exception occurred while Updating MS status Link Details.....null\n"
+}
+2018-03-30 20:25:53 IST - Fetching Data from Data File
+2018-03-30 20:29:57 IST - Micro Service Update response{
+  "commonResponseInfo": {
+    "statusCode": "200",
+    "correlationID": "5661215154548",
+    "status": "SUCCESS",
+    "publicUserID": "2082252115",
+    "statusMessage": "Updating the CommonInfo of Request Details  are ignored."
+  },
+  "errorMessages": "Status Submit request Updated partially  success with correlationId....5661215154548 with Errors::::Exception occurred while Updating MS status Link Details.....null\n"
+}
+2018-03-30 20:39:52 IST - Fetching Data from Data File
+2018-03-30 21:03:37 IST - Fetching Data from Data File
+2018-03-30 21:03:41 IST - Micro Service Update response{
+  "commonResponseInfo": {
+    "statusCode": "200",
+    "correlationID": "566121515451",
+    "status": "SUCCESS",
+    "publicUserID": "2082252115",
+    "statusMessage": "Updating the CommonInfo of Request Details  are ignored."
+  },
+  "errorMessages": "Status Submit request Updated partially  success with correlationId....566121515451 with Errors::::Exception occurred while Updating MS status Link Details.....null\n"
+}
+2018-03-30 21:05:28 IST - Fetching Data from Data File
+2018-03-30 21:05:33 IST - Micro Service Update response{
+  "commonResponseInfo": {
+    "statusCode": "200",
+    "correlationID": "566121515451",
+    "status": "SUCCESS",
+    "publicUserID": "2082252115",
+    "statusMessage": "Updating the CommonInfo of Request Details  are ignored."
+  },
+  "errorMessages": "Status Submit request Updated partially  success with correlationId....566121515451 with Errors::::Exception occurred while Updating MS Request Details.....null\n::Exception occurred while Updating MS status Link Details.....null\n"
+}
+2018-03-30 21:06:28 IST - Fetching Data from Data File
+2018-03-30 21:16:41 IST - Fetching Data from Data File
+2018-03-30 21:16:48 IST - Micro Service Update response{
+  "commonResponseInfo": {
+    "statusCode": "200",
+    "correlationID": "566121515451",
+    "status": "SUCCESS",
+    "publicUserID": "2082252115",
+    "statusMessage": "Updating the CommonInfo of Request Details  are ignored."
+  },
+  "microServiceResponseDetailsList": [
+    {
+      "statusCode": "200",
+      "status": "SUCCESS",
+      "microServiceName": "callerId",
+      "transactionID": "16243",
+      "statusMessage": "Micro Service Updated Successfully."
+    }
+  ]
+}
+2018-03-30 21:16:51 IST - Micro service update successfully

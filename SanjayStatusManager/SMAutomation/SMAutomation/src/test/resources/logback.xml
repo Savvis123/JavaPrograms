@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder 
+			by default -->
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.it.qa.StatusManager" level="INFO" additivity="false">	
+		<appender-ref ref="STDOUT" />
+	</logger>
+
+	<!-- Strictly speaking, the level attribute is not necessary since -->
+	<!-- the level of the root level is set to DEBUG by default. -->
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+	<property name="LOG_HOME"
+		value="C:/CumcumberFWtrial/StatusManager/LogReports" />
+	<property name="ARCHIVE_HOME"
+		value="C:/CumcumberFWtrial/StatusManager/LogReports" />
+
+	<appender name="ROLLINGFILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+              <file>${LOG_HOME}/StatusManagerTests.log</file>
+              <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+                     <Pattern>%d{yyyy-MM-dd HH:mm:ss zzz} - %msg%n</Pattern>
+              </encoder>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${ARCHIVE_HOME}/archived/StatusManagerTests.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize> 										<!-- Controlling the size -->
+				<!-- <maxHistory>8</maxHistory> -->
+				</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+	</appender>
+
+	<logger name="C:/CumcumberFWtrial/StatusManager" level="INFO" additivity="false">
+		<appender-ref ref="ROLLINGFILE" />
+	</logger>
+
+	<root level="INFO">
+		<appender-ref ref="ROLLINGFILE" />
+	</root>
+
+</configuration>

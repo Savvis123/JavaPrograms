@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><WalletMgmtSvcRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:bim="http://www.qwest.com/XMLSchema/BIM">
+  <EPWFHeaderInfo>
+    <bim:RequestId>65672830574757</bim:RequestId>
+    <bim:SendTimeStamp>2016-09-02T09:36:14.758-06:00</bim:SendTimeStamp>
+    <bim:MessageSrcSystem>THUNDERCAT</bim:MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <BillingAccountId>2084654720797</BillingAccountId>
+  <BillingApplicationId>CRIS</BillingApplicationId>
+  <CustomerType>CON</CustomerType>
+  <BillingAcctRegion>IR</BillingAcctRegion>
+  <RequestType>InitiateTokenSession</RequestType>
+  <WalletType>TMP</WalletType>
+  <SrcApplicationId>THUNDERCAT</SrcApplicationId>
+  <InputChannelId>TCAT_SHP</InputChannelId>
+  <UserId>eckouser</UserId>
+  <EPWFAddressT>
+    <StreetAddress1>12451 Beacon Ave S</StreetAddress1>
+    <City>Seattle</City>
+    <bim:StateProvince>WA</bim:StateProvince>
+    <PostalCode>98178</PostalCode>
+    <AddressType>BLG</AddressType>
+  </EPWFAddressT>
+  <SessionDetail>
+    <StyleSheetURL>https://iot.centurylink.com/ebus/css/depositIframe.css</StyleSheetURL>
+    <SuccessNotificationURL>https://www.google.com/#q=success</SuccessNotificationURL>
+    <FailureNotificationURL>https://www.bing.com/#q=failure</FailureNotificationURL>
+    <CancelNotificationURL>https://iot.centurylink.com/iot/templates/epwf/tempWalletCancel.vm</CancelNotificationURL>
+  </SessionDetail>
+</WalletMgmtSvcRequest>

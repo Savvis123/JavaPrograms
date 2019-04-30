@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><AcctLookupRequest xmlns="http://www.qwest.com/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EPWFHeaderInfo>
+    <RequestId xmlns="http://www.qwest.com/XMLSchema/BIM">751b3d7c-58f3-4f78-90d4-85e439bb4665</RequestId>
+    <SendTimeStamp xmlns="http://www.qwest.com/XMLSchema/BIM">2016-08-09T17:53:13.5549828-05:00</SendTimeStamp>
+    <MessageSrcSystem xmlns="http://www.qwest.com/XMLSchema/BIM">CMT</MessageSrcSystem>
+  </EPWFHeaderInfo>
+  <BillingAccntId>3033469997294</BillingAccntId>
+  <SrcSystemTranId>CMT</SrcSystemTranId>
+  <BillingApplicationId>CRIS</BillingApplicationId>
+</AcctLookupRequest>

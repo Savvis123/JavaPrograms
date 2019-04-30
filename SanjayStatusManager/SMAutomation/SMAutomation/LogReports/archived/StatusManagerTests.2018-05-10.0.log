@@ -1,0 +1,233 @@
+2018-05-10 15:28:53 IST - #################################################################################################################################
+2018-05-10 15:28:53 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 15:28:53 IST - #################################################################################################################################
+2018-05-10 15:29:08 IST - ####################################################################################################################################
+2018-05-10 15:29:08 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 15:29:08 IST - ####################################################################################################################################
+2018-05-10 15:29:28 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 15:29:29 IST - Selected PiAutoTest-69eb9f36-CtlByCCID-2005E in the Correlation ID textbox
+2018-05-10 15:29:29 IST - Entered Correlation Id
+2018-05-10 15:29:33 IST - Clicked on view button
+2018-05-10 15:29:33 IST - Number of MicroServices tagged to CorrelationID = 1
+2018-05-10 15:29:33 IST - List of all MicroService associated = [AINProvisioningService]
+2018-05-10 15:29:33 IST - AINProvisioningService  Microservice found...
+2018-05-10 15:42:43 IST - #################################################################################################################################
+2018-05-10 15:42:43 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 15:42:43 IST - #################################################################################################################################
+2018-05-10 15:42:46 IST - ####################################################################################################################################
+2018-05-10 15:42:46 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 15:42:46 IST - ####################################################################################################################################
+2018-05-10 15:43:04 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 15:43:05 IST - Selected PiAutoTest-69eb9f36-CtlByCCID-2005E in the Correlation ID textbox
+2018-05-10 15:43:05 IST - Entered Correlation Id
+2018-05-10 15:43:08 IST - Clicked on view button
+2018-05-10 15:43:09 IST - Number of MicroServices tagged to CorrelationID = 1
+2018-05-10 15:43:09 IST - List of all MicroService associated = [AINProvisioningService]
+2018-05-10 15:43:09 IST - AINProvisioningService  Microservice found...
+2018-05-10 15:43:32 IST - Service status = In Progress ,   Status details = In Progress - Service Restarted  ,  Status code = 202  ,   Completion date = 03/17
+07:18
+2018-05-10 15:43:32 IST - AINProvisioningServiceretried successfully from Status Manager.
+2018-05-10 15:43:35 IST - RETRY action is tracked in the Log details table
+2018-05-10 15:43:37 IST - RETRY action on MS received CODE:202
+2018-05-10 15:43:37 IST - Closed Search results tab
+2018-05-10 15:43:37 IST - Closed Request details tab
+2018-05-10 15:43:42 IST - Starting execution of after Suite method
+2018-05-10 15:43:49 IST - You have successfully logged out.
+2018-05-10 15:43:49 IST - ####################################################################################################################################
+2018-05-10 15:43:49 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 15:43:49 IST - ####################################################################################################################################
+2018-05-10 15:43:50 IST - #################################################################################################################################
+2018-05-10 15:43:50 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 15:43:50 IST - #################################################################################################################################
+2018-05-10 15:49:34 IST - #################################################################################################################################
+2018-05-10 15:49:34 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 15:49:34 IST - #################################################################################################################################
+2018-05-10 15:49:37 IST - ####################################################################################################################################
+2018-05-10 15:49:37 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 15:49:37 IST - ####################################################################################################################################
+2018-05-10 15:49:56 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 15:49:57 IST - Selected sdwf1d2bba5362ee81 in the Correlation ID textbox
+2018-05-10 15:49:57 IST - Entered Correlation Id
+2018-05-10 15:50:00 IST - Clicked on view button
+2018-05-10 15:50:02 IST - Number of MicroServices tagged to CorrelationID = 14
+2018-05-10 15:50:03 IST - List of all MicroService associated = [AINProvisioningService, VM, Callback, Remove RingDown, TN Management, Associate Moniker to Seat, CallerID, E911, Network Service, Porting, Reserve Moniker, Seat Management, TN Admin, VoIP DHP + VM]
+2018-05-10 15:50:03 IST - AINProvisioningService  Microservice found...
+2018-05-10 15:50:27 IST - Service status = Error ,   Status details = Error - VM Provisioning Failed  ,  Status code = 502  ,   Completion date = 
+2018-05-10 15:50:27 IST - 502 is returned when AINProvisioningService is retried
+2018-05-10 15:50:31 IST - ####################################################################################################################################
+2018-05-10 15:50:31 IST - #                                                                                                                                  #
+2018-05-10 15:50:31 IST - #                                                          SCENARIO  FAILED                                                        #
+2018-05-10 15:50:31 IST - #                                                                                                                                  #
+2018-05-10 15:50:31 IST - ####################################################################################################################################
+2018-05-10 15:50:32 IST - #################################################################################################################################
+2018-05-10 15:50:32 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 15:50:32 IST - #################################################################################################################################
+2018-05-10 15:53:12 IST - #################################################################################################################################
+2018-05-10 15:53:12 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 15:53:12 IST - #################################################################################################################################
+2018-05-10 15:53:15 IST - ####################################################################################################################################
+2018-05-10 15:53:15 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 15:53:15 IST - ####################################################################################################################################
+2018-05-10 15:53:33 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 15:53:34 IST - Selected sdwf1d2ac32e1cdba1 in the Correlation ID textbox
+2018-05-10 15:53:34 IST - Entered Correlation Id
+2018-05-10 15:53:37 IST - Clicked on view button
+2018-05-10 15:53:38 IST - Number of MicroServices tagged to CorrelationID = 13
+2018-05-10 15:53:39 IST - List of all MicroService associated = [AINProvisioningService, VM, VoIP DHP + VM, CallerID, Remove RingDown, TN Management, Associate Moniker to Seat, E911, Network Service, Porting, Reserve Moniker, Seat Management, TN Admin]
+2018-05-10 15:53:39 IST - AINProvisioningService  Microservice found...
+2018-05-10 15:54:32 IST - Service status = Error ,   Status details = Error - VM Provisioning Failed  ,  Status code = 502  ,   Completion date = 
+2018-05-10 15:54:40 IST - 502 is returned when AINProvisioningService is retried
+2018-05-10 15:57:34 IST - #################################################################################################################################
+2018-05-10 15:57:34 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 15:57:34 IST - #################################################################################################################################
+2018-05-10 15:57:37 IST - ####################################################################################################################################
+2018-05-10 15:57:37 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 15:57:37 IST - ####################################################################################################################################
+2018-05-10 15:57:56 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 15:57:56 IST - Selected sdwf1c4b118abd1c8c in the Correlation ID textbox
+2018-05-10 15:57:56 IST - Entered Correlation Id
+2018-05-10 15:58:00 IST - Clicked on view button
+2018-05-10 15:58:01 IST - Number of MicroServices tagged to CorrelationID = 14
+2018-05-10 15:58:02 IST - List of all MicroService associated = [AINProvisioningService, Porting, Affiliate Billing, Callback, Remove RingDown, TN Management, Associate Moniker to Seat, CallerID, E911, Network Service, Reserve Moniker, Seat Management, TN Admin, VoIP DHP + VM]
+2018-05-10 15:58:02 IST - AINProvisioningService  Microservice found...
+2018-05-10 15:58:29 IST - Service status = In Progress ,   Status details = In Progress - Service Restarted  ,  Status code = 202  ,   Completion date = 02/05
+03:16
+2018-05-10 15:58:29 IST - AINProvisioningServiceretried successfully from Status Manager.
+2018-05-10 15:58:32 IST - RETRY action is tracked in the Log details table
+2018-05-10 15:58:34 IST - RETRY action on MS received CODE:202
+2018-05-10 15:58:34 IST - Closed Search results tab
+2018-05-10 15:58:34 IST - Closed Request details tab
+2018-05-10 15:58:39 IST - Starting execution of after Suite method
+2018-05-10 15:58:46 IST - You have successfully logged out.
+2018-05-10 15:58:46 IST - ####################################################################################################################################
+2018-05-10 15:58:46 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 15:58:46 IST - ####################################################################################################################################
+2018-05-10 15:58:47 IST - #################################################################################################################################
+2018-05-10 15:58:47 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 15:58:47 IST - #################################################################################################################################
+2018-05-10 17:53:41 IST - #################################################################################################################################
+2018-05-10 17:53:41 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 17:53:41 IST - #################################################################################################################################
+2018-05-10 17:53:44 IST - ####################################################################################################################################
+2018-05-10 17:53:44 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 17:53:44 IST - ####################################################################################################################################
+2018-05-10 17:54:04 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 17:54:04 IST - Selected sdwf1c3cb897f10e42 in the Correlation ID textbox
+2018-05-10 17:54:04 IST - Entered Correlation Id
+2018-05-10 17:54:07 IST - Clicked on view button
+2018-05-10 17:54:09 IST - Number of MicroServices tagged to CorrelationID = 13
+2018-05-10 17:54:10 IST - List of all MicroService associated = [AINProvisioningService, VoIP DHP + VM, Porting, CallerID, Remove RingDown, TN Management, Associate Moniker to Seat, E911, Network Service, Porting Delayed Mail, Reserve Moniker, Seat Management, TN Admin]
+2018-05-10 17:54:10 IST - AINProvisioningService  Microservice found...
+2018-05-10 17:55:10 IST - ####################################################################################################################################
+2018-05-10 17:55:10 IST - #                                                                                                                                  #
+2018-05-10 17:55:10 IST - #                                                          SCENARIO  FAILED                                                        #
+2018-05-10 17:55:10 IST - #                                                                                                                                  #
+2018-05-10 17:55:10 IST - ####################################################################################################################################
+2018-05-10 17:55:11 IST - #################################################################################################################################
+2018-05-10 17:55:11 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 17:55:11 IST - #################################################################################################################################
+2018-05-10 18:04:37 IST - #################################################################################################################################
+2018-05-10 18:04:37 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 18:04:37 IST - #################################################################################################################################
+2018-05-10 18:04:40 IST - ####################################################################################################################################
+2018-05-10 18:04:40 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 18:04:40 IST - ####################################################################################################################################
+2018-05-10 18:04:58 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 18:04:59 IST - Selected sdwf1c1cd8dbd30a42 in the Correlation ID textbox
+2018-05-10 18:04:59 IST - Entered Correlation Id
+2018-05-10 18:05:03 IST - Clicked on view button
+2018-05-10 18:05:04 IST - Number of MicroServices tagged to CorrelationID = 15
+2018-05-10 18:05:06 IST - List of all MicroService associated = [AINProvisioningService, E911, Porting, Affiliate Billing, Remove RingDown, TN Management, Associate Moniker to Seat, CallerID, Modem Reboot, Network Service, Porting Delayed Mail, Reserve Moniker, Seat Management, TN Admin, VoIP DHP + VM]
+2018-05-10 18:05:06 IST - AINProvisioningService  Microservice found...
+2018-05-10 18:05:33 IST - Service status = In Progress ,   Status details = In Progress - Service Restarted  ,  Status code = 202  ,   Completion date = 02/04
+13:07
+2018-05-10 18:05:33 IST - AINProvisioningServiceretried successfully from Status Manager.
+2018-05-10 18:05:36 IST - RETRY action is tracked in the Log details table
+2018-05-10 18:05:38 IST - RETRY action on MS received CODE:202
+2018-05-10 18:05:38 IST - Closed Search results tab
+2018-05-10 18:05:39 IST - Closed Request details tab
+2018-05-10 18:05:44 IST - Starting execution of after Suite method
+2018-05-10 18:05:50 IST - You have successfully logged out.
+2018-05-10 18:05:50 IST - ####################################################################################################################################
+2018-05-10 18:05:50 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 18:05:50 IST - ####################################################################################################################################
+2018-05-10 18:05:51 IST - #################################################################################################################################
+2018-05-10 18:05:51 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 18:05:51 IST - #################################################################################################################################
+2018-05-10 21:07:08 IST - #################################################################################################################################
+2018-05-10 21:07:08 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 21:07:08 IST - #################################################################################################################################
+2018-05-10 21:07:11 IST - ####################################################################################################################################
+2018-05-10 21:07:11 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 21:07:11 IST - ####################################################################################################################################
+2018-05-10 21:07:29 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 21:07:30 IST - Selected sdwf1c1cd8dbd30a42 in the Correlation ID textbox
+2018-05-10 21:07:30 IST - Entered Correlation Id
+2018-05-10 21:07:33 IST - Clicked on view button
+2018-05-10 21:07:34 IST - Number of MicroServices tagged to CorrelationID = 15
+2018-05-10 21:07:36 IST - List of all MicroService associated = [AINProvisioningService, E911, Porting, Affiliate Billing, Remove RingDown, TN Management, Associate Moniker to Seat, CallerID, Modem Reboot, Network Service, Porting Delayed Mail, Reserve Moniker, Seat Management, TN Admin, VoIP DHP + VM]
+2018-05-10 21:07:36 IST - E911  Microservice found...
+2018-05-10 21:07:41 IST - RETRY action is tracked in the Log details table
+2018-05-10 21:07:43 IST - RETRY action on MS received CODE:202
+2018-05-10 21:07:43 IST - True FC response = Correlation ID:sdwf1c1cd8dbd30a42
+Transaction ID:36119
+Micro Service NAME:AINProvisioningService
+ACTION_TYPE:RETRY
+STATUS:Success
+CODE:202
+CODE DEF:Request accepted and processing is in progress.
+RESPONSE RECEIVED:{"correlationId":"sdwf1c1cd8dbd30a42","tn":"3037912356","responseCode":202,"message":"Accepted","summary":"Accepted","transactionId":"36119","httpMethod":"POST"}
+VALIDATION_BY:Response Rules
+VALIDATION_STATUS:RuleNotFound
+VALIDATION_RESULTS:
+==> ruleStatus: RuleNotFound ; validationReason:  No Data found in db table: SM_MANUAL_ACTION_KEYSET for this offeringType:DHP , MicroServiceName: AINProvisioningService ,ButtonType:RETRY , msActionType::CREATE ; 
+CREATED_BY_ID:ab42590
+COMMENT:Testing Edit
+2018-05-10 21:07:44 IST - Closed Search results tab
+2018-05-10 21:07:44 IST - Closed Request details tab
+2018-05-10 21:07:49 IST - Starting execution of after Suite method
+2018-05-10 21:07:55 IST - You have successfully logged out.
+2018-05-10 21:07:55 IST - ####################################################################################################################################
+2018-05-10 21:07:55 IST - #                                               SCENARIO EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 21:07:55 IST - ####################################################################################################################################
+2018-05-10 21:07:56 IST - #################################################################################################################################
+2018-05-10 21:07:56 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 21:07:56 IST - #################################################################################################################################
+2018-05-10 21:08:29 IST - #################################################################################################################################
+2018-05-10 21:08:29 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 21:08:29 IST - #################################################################################################################################
+2018-05-10 21:08:32 IST - ####################################################################################################################################
+2018-05-10 21:08:32 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 21:08:32 IST - ####################################################################################################################################
+2018-05-10 21:08:52 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 21:08:52 IST - Selected sdwf1c1cd8dbd30a42 in the Correlation ID textbox
+2018-05-10 21:08:52 IST - Entered Correlation Id
+2018-05-10 21:08:56 IST - Clicked on view button
+2018-05-10 21:08:57 IST - Number of MicroServices tagged to CorrelationID = 15
+2018-05-10 21:08:58 IST - List of all MicroService associated = [AINProvisioningService, E911, Porting, Affiliate Billing, Remove RingDown, TN Management, Associate Moniker to Seat, CallerID, Modem Reboot, Network Service, Porting Delayed Mail, Reserve Moniker, Seat Management, TN Admin, VoIP DHP + VM]
+2018-05-10 21:08:58 IST - AINProvisioningService  Microservice found...
+2018-05-10 21:09:07 IST - ####################################################################################################################################
+2018-05-10 21:09:07 IST - #                                                                                                                                  #
+2018-05-10 21:09:07 IST - #                                                          SCENARIO  FAILED                                                        #
+2018-05-10 21:09:07 IST - #                                                                                                                                  #
+2018-05-10 21:09:07 IST - ####################################################################################################################################
+2018-05-10 21:09:07 IST - #################################################################################################################################
+2018-05-10 21:09:07 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 21:09:07 IST - #################################################################################################################################
+2018-05-10 21:10:03 IST - #################################################################################################################################
+2018-05-10 21:10:03 IST - #                                                     SUITE EXECUTION STARTED                                                   #
+2018-05-10 21:10:03 IST - #################################################################################################################################
+2018-05-10 21:10:06 IST - ####################################################################################################################################
+2018-05-10 21:10:06 IST - #                                                     SCENARIO EXECUTION STARTED                                                   #
+2018-05-10 21:10:06 IST - ####################################################################################################################################
+2018-05-10 21:10:28 IST - App Version in HomePage :App Version 3.8.0
+2018-05-10 21:10:29 IST - Selected sdwf1c1cd8dbd30a421 in the Correlation ID textbox
+2018-05-10 21:10:29 IST - Entered Correlation Id
+2018-05-10 21:11:01 IST - ####################################################################################################################################
+2018-05-10 21:11:01 IST - #                                                                                                                                  #
+2018-05-10 21:11:01 IST - #                                                          SCENARIO  FAILED                                                        #
+2018-05-10 21:11:01 IST - #                                                                                                                                  #
+2018-05-10 21:11:01 IST - ####################################################################################################################################
+2018-05-10 21:11:02 IST - #################################################################################################################################
+2018-05-10 21:11:02 IST - #                                               SUITE EXECUTED SUCCESSFULLY                                                     #
+2018-05-10 21:11:02 IST - #################################################################################################################################
